@@ -1,0 +1,7 @@
+Research about the XZ backdoorThe XZ backdoor refers to a malicious backdoor that was introduced to the Linux build of the xz utility within the liblzma library in versions 5.6.0 and 5.6.1. The backdoor was created by an account using the name "Jia Tan" and allows an attacker with a specific Ed448 private key to execute remote code on the affected Linux system. This issue has been assigned the Common Vulnerabilities and Exposures number CVE-2024-3094 and has a CVSS score of 10.0, the highest possible score.
+
+The xz utility is commonly present in most Linux distributions, but at the time of discovery, the backdoored version had not been widely deployed to production systems. The backdoor was discovered by software developer Andres Freund, who announced his findings on 29 March 2024.
+
+A backdoor is a covert method of bypassing normal authentication or encryption in a computer system. It can be used for securing remote access to a computer, obtaining access to plaintext in cryptosystems, gaining access to privileged information, or corrupting/deleting data on hard drives. Backdoors can take various forms, such as hidden parts of a program, separate programs, code in firmware, or parts of an operating system.
+
+In the context of the XZ backdoor, it allowed unauthorized remote code execution on Linux systems, posing a significant security risk.
